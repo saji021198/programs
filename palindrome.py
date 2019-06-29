@@ -1,0 +1,11 @@
+number=int(input())
+reverse=0
+temp=number
+while(temp>0):
+           remainder=temp%10
+           reverse=(reverse*10)+remainder
+           temp=temp//10
+if(number==reverse):
+           print("yes")
+else:
+           print("no")
