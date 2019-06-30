@@ -1,0 +1,13 @@
+N=int(input())
+array=list(map(int,input().split()))
+array.sort()
+q=len(array)
+if(q%2!=0):
+    b=(q)//2
+    print(array[b])
+else:
+    a=q//2
+    c=a-1
+    z=(array[a]+array[c])
+    e=z/2
+    print(e)
