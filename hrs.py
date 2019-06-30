@@ -8,4 +8,4 @@ if(h1>h2):
 else:
     b=h2-h1
     d=m2-m1
-    print(b)
+    print(b,d)
