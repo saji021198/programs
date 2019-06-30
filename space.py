@@ -1,2 +1,2 @@
-a=str(input())
-print(a.count(' '))
+g=str(input())
+print(g.count(' '))
