@@ -1,2 +1,2 @@
-q=list(map(int,input().split()))
-print(max(q))
+v=list(map(int,input().split()))
+print(max(v))
