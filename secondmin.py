@@ -1,0 +1,7 @@
+j=int(input())
+p=list(map(int,input().split()))
+f=sorted(p)
+g=min(f)
+f.remove(g)
+h=min(f)
+print(h)
