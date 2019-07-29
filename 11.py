@@ -1,0 +1,11 @@
+m,n=map(str,input().split())
+p=len(m)
+k=len(n)
+if(p==k):
+    e=m+n
+elif(p>k):
+    m=m[:k]
+elif(k>p):
+    n=n[:p]
+e=m+n
+print(e)
